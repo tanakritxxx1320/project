@@ -5,7 +5,7 @@ import 'package:project/auth_service.dart';
 import 'package:project/pages/catregister.dart';
 import 'package:project/pages/home.dart';
 import 'package:project/pages/navigator.dart';
-import 'package:project/pages/register.dart';
+import 'package:auth_buttons/auth_buttons.dart';
 import 'package:project/pages/register1.dart';
 
 class LoginForm extends StatefulWidget {

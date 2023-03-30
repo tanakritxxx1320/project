@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
       drawer: Drawer(
         child: MyDrawerList(),
       ),
-      body: ListView(
+      body: Column(
           children: [
             Expanded(child: GridView(
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(

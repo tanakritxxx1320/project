@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:project/pages/login.dart';
 import 'package:project/pages/home.dart';
 import 'package:project/pages/navigator.dart';
-import 'package:project/pages/register.dart';
+
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: LoginForm(),
     );
   }
 }
