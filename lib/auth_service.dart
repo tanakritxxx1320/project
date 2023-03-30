@@ -102,7 +102,7 @@ class Registercat{
         "Gender": catgender,
         "Age": catAge,
       });
-      print("Booking successful");
+      print("CatRegis successful");
     } catch (e) {
       print("Error booking: $e");
       // Handle error here

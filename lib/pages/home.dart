@@ -30,14 +30,128 @@ class _HomePageState extends State<HomePage> {
       drawer: Drawer(
         child: MyDrawerList(),
       ),
-      body: Container(
-        decoration: BoxDecoration(
-          color: Colors.grey[200],
-        ),
-        child: Padding(
-          padding: EdgeInsets.all(16),
-          //child: _entryInfo(),
-        ),
+      body: ListView(
+          children: [
+            Expanded(child: GridView(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 1,
+
+
+              ),
+               scrollDirection: Axis.vertical,
+    children: [
+       Image.asset(
+              "images/abis.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+      ),
+      Image.asset(
+              "images/munkin.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+      ),
+      Image.asset(
+              "images/scott.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+      ),
+      Text(
+        'สายพันธุ์ "อบิสซีเนียน"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "มันกิ้นส์"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "สก๊อตติชโฟลด์"',
+        
+        
+      ),
+      Image.asset(
+              "images/russian.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+        
+      ),
+       Image.asset(
+              "images/wichian.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+      ),
+       Image.asset(
+              "images/sphinx.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+      ),
+      Text(
+        'สายพันธุ์ "รัสเซียนบลู"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "วิเชียรมาศ"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "สฟิงซ์"',
+        
+        
+      ),
+        Image.asset(
+              "images/rakdoll.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+        
+      ),
+        Image.asset(
+              "images/mencoon.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+        
+      ),
+        Image.asset(
+              "images/oxy.jpg",
+        width: 100,
+        height: 100,
+        fit: BoxFit.cover,
+        
+      ),
+        Text(
+        'สายพันธุ์ "แร็คดอล"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "เมนคูน"',
+        
+      ),
+      Text(
+        'สายพันธุ์ "อ็อกซี่"',
+        
+        
+      ),
+
+
+    ],)
+              
+
+
+
+              )
+          ]
+
+
+        
       ),
     );
   }

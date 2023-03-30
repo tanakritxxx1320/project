@@ -151,6 +151,7 @@ class _CatregisState extends State<Catregis> {
                 ),
               ),
             ),
+       
             Align(
                 alignment: AlignmentDirectional(0, 0),
                 child: Container(
@@ -197,9 +198,9 @@ class _CatregisState extends State<Catregis> {
             ElevatedButton(
               style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll(
-                      Color.fromARGB(255, 16, 216, 33)),
+                      Color.fromARGB(255, 183, 243, 42)),
                   foregroundColor:
-                      const MaterialStatePropertyAll(Colors.white)),
+                      const MaterialStatePropertyAll(Color.fromARGB(255, 165, 234, 133))),
               onPressed: () {
                 showConfirmDialog();
               },

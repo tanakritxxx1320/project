@@ -29,7 +29,7 @@ class _RegisterpagesState extends State<Registerpages> {
         backgroundColor: Color.fromARGB(255, 240, 84, 190),
       ),
       body: Container(
-        color: Color.fromARGB(255, 230, 235, 94),
+        color: Color.fromARGB(255, 249, 249, 246),
         child: Form(
           key: _fromkey,
           child: ListView(
